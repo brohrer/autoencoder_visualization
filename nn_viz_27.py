@@ -429,7 +429,6 @@ def add_layer_connections(ax_boss, image_axes):
     y_start_max = ax_start_pos.y1
     y_start = (y_start_min + y_start_max) / 2
 
-    y_ends = []
     ax_end = image_axes[1][0]
     ax_end_pos = ax_end.get_position()
     y_end_min = ax_end_pos.y0
